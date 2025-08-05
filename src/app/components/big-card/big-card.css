@@ -9,6 +9,7 @@
     align-items: flex-start;
     justify-content: flex-start;
 }
+
 .big-card__title > h1{
     font-size: 20px;
     margin-top: 15px;

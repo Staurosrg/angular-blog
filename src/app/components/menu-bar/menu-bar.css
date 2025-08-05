@@ -6,3 +6,28 @@
     margin-right: 20px;
     list-style: none;
 }
+
+.conteiner__menu-bar ul {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+.conteiner__menu-bar li {
+  display: flex;
+  align-items: center;
+}
+
+.conteiner__menu-bar a {
+  text-decoration: none;
+  color: #d4d2d2;
+  font-weight: 500;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.conteiner__menu-bar a:hover {
+  transform: translateY(-2px) scale(1.05);
+  color: #36a9e7; 
+}
